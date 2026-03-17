@@ -166,7 +166,7 @@ df.plot(x='UN_Region', y='UN_Estimate', kind='scatter',
 
 plt.show()
 ```
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/f31ad516-37ad-4553-aec0-5c2637cd7332" />
+<img width="600" height="900" alt="image" src="https://github.com/user-attachments/assets/d4ccd2be-a4bc-458b-82e0-5a3256490e9a" />
 
 ---
 #### Box Plot and Outliers
@@ -175,7 +175,7 @@ sns.boxplot(x=df["UN_Estimate"])
 
 plt.show()
 ```
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/aeb9b88f-c092-49e0-993f-f809bb9756a2" />
+<img width="600" height="547" alt="image" src="https://github.com/user-attachments/assets/c6cc6c94-5075-4984-beb6-576f705a784d" />
 
 --- 
 
