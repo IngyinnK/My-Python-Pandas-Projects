@@ -134,7 +134,7 @@ import seaborn as sns
 df.hist(figsize=(10,8))
 plt.show()
 ```
-<img width="831" height="682" alt="image" src="https://github.com/user-attachments/assets/c4851fc0-603d-43e4-a922-4ac6c2f7923c" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c4851fc0-603d-43e4-a922-4ac6c2f7923c" />
 
 ---
 #### 
@@ -146,7 +146,7 @@ sns.heatmap(corr)
 
 plt.show()
 ```
-<img width="700" height="511" alt="image" src="https://github.com/user-attachments/assets/36093fa9-96b0-4e95-adf3-fe6b3a3fbe74" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/36093fa9-96b0-4e95-adf3-fe6b3a3fbe74" />
 
 --- 
 #### Bar Plot
@@ -155,7 +155,7 @@ sns.barplot(x="UN_Region", y="WorldBank_Estimate", data=df, errorbar=None)
 
 plt.show()
 ```
-<img width="589" height="433" alt="image" src="https://github.com/user-attachments/assets/c98abc01-a911-4216-b934-2d5a7768fee9" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/c98abc01-a911-4216-b934-2d5a7768fee9" />
 
 ---
 #### Scatter Plot
@@ -166,7 +166,7 @@ df.plot(x='UN_Region', y='UN_Estimate', kind='scatter',
 
 plt.show()
 ```
-<img width="877" height="547" alt="image" src="https://github.com/user-attachments/assets/f31ad516-37ad-4553-aec0-5c2637cd7332" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/f31ad516-37ad-4553-aec0-5c2637cd7332" />
 
 ---
 #### Box Plot and Outliers
@@ -175,7 +175,7 @@ sns.boxplot(x=df["UN_Estimate"])
 
 plt.show()
 ```
-<img width="520" height="433" alt="image" src="https://github.com/user-attachments/assets/aeb9b88f-c092-49e0-993f-f809bb9756a2" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/aeb9b88f-c092-49e0-993f-f809bb9756a2" />
 
 --- 
 
