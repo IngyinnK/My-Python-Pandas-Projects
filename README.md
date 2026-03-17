@@ -151,13 +151,14 @@ plt.show()
 --- 
 #### Bar Plot
 ```
-sns.barplot(x="UN_Region", y="WorldBank_Estimate", data=df, errorbar=None)
+sns.barplot(x="WorldBank_Estimate", y="UN_Region", data=df, errorbar=None)
 
 plt.show()
 ```
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/c98abc01-a911-4216-b934-2d5a7768fee9" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/eb829439-fea8-44be-bad5-2d19c3c0b24b" />
 
 ---
+
 #### Scatter Plot
 ```
 df.plot(x='UN_Region', y='UN_Estimate', kind='scatter',
@@ -169,13 +170,14 @@ plt.show()
 <img width="600" height="900" alt="image" src="https://github.com/user-attachments/assets/d4ccd2be-a4bc-458b-82e0-5a3256490e9a" />
 
 ---
+
 #### Box Plot and Outliers
 ```
 sns.boxplot(x=df["UN_Estimate"])
 
 plt.show()
 ```
-<img width="600" height="547" alt="image" src="https://github.com/user-attachments/assets/c6cc6c94-5075-4984-beb6-576f705a784d" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/50e2d9f7-d7f0-4a9e-8c39-4092c9ccffa6" />
 
 --- 
 
