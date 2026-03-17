@@ -124,6 +124,7 @@ These analyses help uncover **business insights from retail data**.
 ## 📈 Data Visualisation
 
 Visualisations were created using pandas plotting and **matplotlib** to better understand patterns in the dataset.
+Charts help present findings clearly and support **data-driven decision making**.
 ```
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -183,10 +184,6 @@ sns.boxplot(x=df["UN_Estimate"])
 plt.show()
 ```
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/50e2d9f7-d7f0-4a9e-8c39-4092c9ccffa6" />
-
---- 
-
-Charts help present findings clearly and support **data-driven decision making**.
 
 ---
 
