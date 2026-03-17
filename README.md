@@ -151,11 +151,16 @@ plt.show()
 --- 
 #### Bar Plot
 ```
-sns.barplot(x="WorldBank_Estimate", y="UN_Region", data=df, errorbar=None)
+fig = plt.figure(figsize = (8,5))
+
+ax = sns.barplot(x = "IMF_Estimate",  y = "UN_Region",
+data = df, errorbar = None)
+
+ax.bar_label(ax.containers[0])
 
 plt.show()
 ```
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/eb829439-fea8-44be-bad5-2d19c3c0b24b" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/385a472b-b4dc-4ed4-90e7-b532da9682d9" />
 
 ---
 
